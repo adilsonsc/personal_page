@@ -122,9 +122,9 @@ margin-right: 30px;
   margin-bottom: 0 rem;
 }
 
-.video {
-  width: 100vh;
-  height: 100%;
-  object-fit: cover;
+#myVideo {
+  width: 340px;
+  /*height: auto;
+  object-fit: cover;*/
 }
 
