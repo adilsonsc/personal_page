@@ -106,7 +106,7 @@
   <div class="row">
 
       <div class="col-12 col-lg-4 card-trip">
-        <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/adilson.mp4" allowfullscreen></iframe>
+        <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/adilson.mp4" allowfullscreen></iframe>
         <div class="card-items">
           <div>
             <h2><h2>
@@ -116,7 +116,7 @@
 
 
       <div class="col-12 col-lg-4 card-trip">
-        <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/kiara.mp4" allowfullscreen></iframe>
+        <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/kiara.mp4" allowfullscreen></iframe>
         <div class="card-items">
           <div>
             <h2><h2>
@@ -127,7 +127,7 @@
 
 
         <div class="card-trip col-12 col-lg-4">
-          <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/alice.mp4" allowfullscreen></iframe>
+          <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/alice.mp4" allowfullscreen></iframe>
 
           <div class="card-items">
             <div>
@@ -139,7 +139,7 @@
 
 
         <div class="card-trip col-12 col-lg-4">
-          <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/meire.mp4" allowfullscreen></iframe>
+          <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/meire.mp4" allowfullscreen></iframe>
 
           <div class="card-items">
             <div>
@@ -150,7 +150,7 @@
 
 
         <div class="col-12 col-lg-4 card-trip">
-        <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/cleude.mp4" allowfullscreen></iframe>
+        <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/cleude.mp4" allowfullscreen></iframe>
         <div class="card-items">
           <div>
             <h2></h2>
@@ -161,7 +161,7 @@
 
 
         <div class="card-trip col-12 col-lg-4">
-          <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/juarez.mp4" allowfullscreen></iframe>
+          <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/juarez.mp4" allowfullscreen></iframe>
 
           <div class="card-items">
             <div>
@@ -173,7 +173,7 @@
 
 
         <div class="card-trip col-12 col-lg-4">
-          <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/miriam3.mp4" allowfullscreen></iframe>
+          <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/miriam3.mp4" allowfullscreen></iframe>
 
           <div class="card-items">
             <div>
@@ -183,7 +183,7 @@
         </div>
 
         <div class="card-trip col-12 col-lg-4">
-          <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/henrique.mp4" allowfullscreen></iframe>
+          <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/henrique.mp4" allowfullscreen></iframe>
 
           <div class="card-items">
             <div>
@@ -193,7 +193,7 @@
         </div>
 
         <div class="card-trip col-12 col-lg-4">
-          <iframe class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/parabens.mp4" allowfullscreen></iframe>
+          <iframe id="myVideo" class="card-trip embed-responsive-item" controls="false" autoplay="false" autostart="false" mute="1" src="./images/parabens.mp4" allowfullscreen></iframe>
 
           <div class="card-items">
             <div>
@@ -212,7 +212,11 @@
 
 </div>
 
-
+<script>
+    const vid = document.getElementById("myVideo");
+    vid.autoplay = false;
+    vid.load();
+</script>
 <script src="main.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
