@@ -9,11 +9,21 @@
   <title>Feliz Aniversário!</title>
 </head>
 <body>
-  <div class="title container text-center rounded p-5">
-    <h1>Feliz Aniversário, meu amor! </h1>
+  <div class="title justify-content-around container bg-light text-center rounded p-5">
+    <h1>Parabéns, Elíade!<p>&#x1F970;</p><h1>
+     <h1>
+      <p>&#x1F942; &#x1F382; &#x1F973; &#x1F37B;</p>
+      </h1>
+
+    <h1>Feliz Aniversário! <p>&#x1F49D;</p></h1>
+
   </div>
 
-  <div class="container d-flex justify-content-between rounded border p-5">
+
+    <h3 class="subtitle container bg-light text-center rounded p-5 border-bottom-0">Boas lembranças... </h1>
+
+
+  <div class="container bg-light d-flex justify-content-between rounded border-top-0 p-5">
 
 
     <div class="row justify-content center">
@@ -90,9 +100,19 @@
 
 </div>
 
+ <h3 class=" subtitle container align-items bg-light text-center rounded p-5 border-bottom-0">Videos... </h1>
 
-<div class="container d-flex rounded border p-5">
+<div class="container bg-light d-flex rounded border-top-0 p-5">
   <div class="row">
+
+      <div class="col-12 col-lg-4 card-trip">
+        <iframe class="card-trip embed-responsive-item" autoplay="0" autostart="1" src="./images/adilson.mp4" allowfullscreen></iframe>
+        <div class="card-items">
+          <div>
+            <h2><h2>
+          </div>
+        </div>
+      </div>
 
 
       <div class="col-12 col-lg-4 card-trip">
@@ -194,10 +214,17 @@
 
 <script type="text/javascript">
 
+import { confetti } from 'dom-confetti';
+
 const initConfetti = () => {
 
-  const button = document.querySelector(".btn-danger")
-  button.addEventListener("click", () => confetti(button))
+  window.addEventListener('load', (event) => {
+
+});
+
+ window.onload  = (event) => {
+    event.confetti
+};
 
 </script>
 
